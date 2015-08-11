@@ -1,6 +1,6 @@
 ﻿{
-	"name": "New project",
-	"short_name": "New project",
+	"name": "Mafia Timer",
+	"short_name": "Mafia Timer",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
