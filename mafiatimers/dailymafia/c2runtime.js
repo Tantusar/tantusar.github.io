@@ -16673,9 +16673,9 @@ cr.plugins_.TiledBg = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Button,
 	cr.plugins_.Keyboard,
-	cr.plugins_.TextBox,
 	cr.plugins_.Mouse,
 	cr.plugins_.Text,
+	cr.plugins_.TextBox,
 	cr.plugins_.TiledBg,
 	cr.plugins_.Text.prototype.cnds.OnCreated,
 	cr.plugins_.Text.prototype.acts.SetWebFont,
