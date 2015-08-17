@@ -16672,11 +16672,11 @@ cr.plugins_.TiledBg = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Button,
-	cr.plugins_.Text,
-	cr.plugins_.TiledBg,
-	cr.plugins_.Mouse,
 	cr.plugins_.Keyboard,
 	cr.plugins_.TextBox,
+	cr.plugins_.Mouse,
+	cr.plugins_.Text,
+	cr.plugins_.TiledBg,
 	cr.plugins_.Text.prototype.cnds.OnCreated,
 	cr.plugins_.Text.prototype.acts.SetWebFont,
 	cr.plugins_.Text.prototype.acts.SetText,
@@ -16701,6 +16701,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.TextBox.prototype.exps.Text,
 	cr.system_object.prototype.cnds.Every,
 	cr.plugins_.Text.prototype.cnds.CompareText,
-	cr.plugins_.Text.prototype.acts.AppendText
+	cr.plugins_.Text.prototype.acts.AppendText,
+	cr.plugins_.TextBox.prototype.cnds.OnCreated,
+	cr.plugins_.TextBox.prototype.acts.SetCSSStyle
 ];};
 
