@@ -1,0 +1,10 @@
+vox/_site/*
+vox/_theme_packages/*
+
+vox/Thumbs.db
+vox/.DS_Store
+
+!.gitkeep
+
+vox/.rbenv-version
+vox/.rvmrc
