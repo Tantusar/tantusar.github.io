@@ -55,11 +55,11 @@ blink {
 </table>
 <script>
 var live = 0;
-if live == 1 then {
+if (live == 1) then {
 document.getElementById(offline).style.display = "none"
 document.getElementById(live).style.border = "1px dashed red"
 }
-if live == 0 then {
+if (live == 0) then {
 document.getElementById(online).style.display = "none"
 }
 </script>
