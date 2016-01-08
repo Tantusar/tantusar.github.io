@@ -19297,6 +19297,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SubVar,
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.system_object.prototype.cnds.TriggerOnce,
+	cr.plugins_.Keyboard.prototype.cnds.OnKeyReleased,
 	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.plugins_.Browser.prototype.acts.Close,
