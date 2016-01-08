@@ -19301,16 +19301,13 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
 	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
 	cr.plugins_.Browser.prototype.acts.Close,
-	cr.plugins_.Browser.prototype.cnds.OnUpdateReady,
-	cr.plugins_.Sprite.prototype.acts.SetAnim,
-	cr.system_object.prototype.acts.WaitForSignal,
-	cr.plugins_.Browser.prototype.acts.Reload,
-	cr.system_object.prototype.acts.Signal,
 	cr.plugins_.TiledBg.prototype.acts.SetWidth,
 	cr.system_object.prototype.exps.loadingprogress,
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.system_object.prototype.exps.round,
+	cr.plugins_.Browser.prototype.cnds.OnUpdateReady,
 	cr.plugins_.LocalStorage.prototype.acts.ClearStorage,
+	cr.plugins_.Browser.prototype.acts.Reload,
 	cr.plugins_.Browser.prototype.acts.GoToURLWindow,
 	cr.system_object.prototype.acts.GoToLayoutByName
 ];};
