@@ -276,6 +276,14 @@
          id="rect4136"
          style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
+         mask="none"
+         y="592.36218"
+         x="600"
+         height="70"
+         width="300"
+         id="rect4204"
+         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
          clip-path="url(#clipPath4427)"
          transform="translate(-317.774,100)"
          mask="none"
@@ -296,14 +304,6 @@
            x="45.735176"
            id="tspan4186"
            sodipodi:role="line">Host</tspan></text>
-      <rect
-         mask="none"
-         y="592.36218"
-         x="600"
-         height="70"
-         width="300"
-         id="rect4204"
-         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <rect
          clip-path="url(#clipPath4437)"
          style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
