@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -8,155 +6,123 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="900"
-   height="500"
-   viewBox="0 0 900.00001 500.00001"
-   id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   inkscape:export-filename="E:\One Base, No Toppings\TantusarRole.png"
-   inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90"
-   sodipodi:docname="7P7lCfrT.svg">
+   id="svg2"
+   viewBox="0 0 900.00001 500.00001"
+   height="500"
+   width="900">
   <defs
      id="defs4">
     <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4166">
+       id="clipPath4166"
+       clipPathUnits="userSpaceOnUse">
       <rect
-         style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect4168"
-         width="79.04113"
-         height="136.90326"
+         y="575.09332"
          x="254.95886"
-         y="575.09332" />
+         height="136.90326"
+         width="79.04113"
+         id="rect4168"
+         style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </clipPath>
     <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4279">
+       id="clipPath4279"
+       clipPathUnits="userSpaceOnUse">
       <rect
-         ry="10"
-         rx="10"
-         y="725.92841"
-         x="670.83636"
-         height="125"
-         width="125"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4281"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         width="125"
+         height="125"
+         x="670.83636"
+         y="725.92841"
+         rx="10"
+         ry="10" />
     </clipPath>
     <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4283">
+       id="clipPath4283"
+       clipPathUnits="userSpaceOnUse">
       <rect
-         ry="10"
-         rx="10"
-         y="712.36218"
-         x="687.5"
-         height="125"
-         width="125"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4285"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         width="125"
+         height="125"
+         x="687.5"
+         y="712.36218"
+         rx="10"
+         ry="10" />
     </clipPath>
     <mask
-       maskUnits="userSpaceOnUse"
-       id="mask4377">
+       id="mask4377"
+       maskUnits="userSpaceOnUse">
       <g
          id="g4379">
         <rect
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="rect4381"
-           width="550"
-           height="50"
+           y="502.36215"
            x="0"
-           y="502.36215" />
+           height="50"
+           width="550"
+           id="rect4381"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
         <path
-           clip-path="url(#clipPath4166)"
-           transform="matrix(0.6325821,0,0,0.36522146,338.71758,292.32572)"
-           inkscape:transform-center-y="-8.3333399"
-           d="m 413.04113,711.9966 -158.08226,0 L 334,575.09335 Z"
-           inkscape:randomized="0"
-           inkscape:rounded="0"
-           inkscape:flatsided="true"
-           sodipodi:arg2="1.5707963"
-           sodipodi:arg1="0.52359878"
-           sodipodi:r2="45.634418"
-           sodipodi:r1="91.268837"
-           sodipodi:cy="666.36218"
-           sodipodi:cx="334"
-           sodipodi:sides="3"
-           id="path4383"
            style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           sodipodi:type="star" />
+           id="path4383"
+           d="m 413.04113,711.9966 -158.08226,0 L 334,575.09335 Z"
+           transform="matrix(0.6325821,0,0,0.36522146,338.71758,292.32572)"
+           clip-path="url(#clipPath4166)" />
       </g>
     </mask>
     <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4417">
-      <rect
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect4419"
-         width="1000"
-         height="1000"
-         x="183.40552"
-         y="386.88367"
-         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4427">
-      <rect
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect4429"
-         width="550"
-         height="50"
-         x="13.226013"
-         y="1110.3622"
-         clip-path="url(#clipPath4417)"
-         transform="translate(-13.22601,-608.00003)" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4433">
+       id="clipPath4417"
+       clipPathUnits="userSpaceOnUse">
       <rect
          transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)"
-         y="286.47449"
-         x="91.481606"
+         y="386.88367"
+         x="183.40552"
          height="1000"
          width="1000"
-         id="rect4435"
+         id="rect4419"
          style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </clipPath>
     <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4437">
+       id="clipPath4427"
+       clipPathUnits="userSpaceOnUse">
       <rect
-         clip-path="url(#clipPath4433)"
-         y="974.36218"
-         x="-230.774"
+         transform="translate(-13.22601,-608.00003)"
+         clip-path="url(#clipPath4417)"
+         y="1110.3622"
+         x="13.226013"
          height="50"
-         width="800"
-         id="rect4439"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         transform="translate(-776.45201,-1526.7243)" />
+         width="550"
+         id="rect4429"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </clipPath>
     <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4513">
+       id="clipPath4433"
+       clipPathUnits="userSpaceOnUse">
       <rect
          style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect4515"
-         width="880"
-         height="480"
-         x="10"
-         y="562.36218"
-         rx="25"
-         ry="25" />
+         id="rect4435"
+         width="1000"
+         height="1000"
+         x="91.481606"
+         y="286.47449"
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
     </clipPath>
     <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4581">
+       id="clipPath4437"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         transform="translate(-776.45201,-1526.7243)"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4439"
+         width="800"
+         height="50"
+         x="-230.774"
+         y="974.36218"
+         clip-path="url(#clipPath4433)" />
+    </clipPath>
+    <clipPath
+       id="clipPath4513"
+       clipPathUnits="userSpaceOnUse">
       <rect
          ry="25"
          rx="25"
@@ -164,59 +130,23 @@
          x="10"
          height="480"
          width="880"
+         id="rect4515"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       id="clipPath4581"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4583"
-         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+         width="880"
+         height="480"
+         x="10"
+         y="562.36218"
+         rx="25"
+         ry="25" />
     </clipPath>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="366.87988"
-     inkscape:cy="163.6609"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     units="px"
-     inkscape:snap-page="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1">
-    <sodipodi:guide
-       position="0,550.00002"
-       orientation="50.000031,0"
-       id="guide4142" />
-    <sodipodi:guide
-       position="0,499.99999"
-       orientation="0,550"
-       id="guide4144" />
-    <sodipodi:guide
-       position="550.00001,550.00002"
-       orientation="0,-550"
-       id="guide4148" />
-    <sodipodi:guide
-       position="600.00001,600.00002"
-       orientation="600.00003,0"
-       id="guide4196" />
-    <sodipodi:guide
-       position="600.00001,-2.2617188e-005"
-       orientation="0,300"
-       id="guide4198" />
-    <sodipodi:guide
-       position="900.00001,-2.2617188e-005"
-       orientation="-600.00003,0"
-       id="guide4200" />
-    <sodipodi:guide
-       position="900.00001,600.00002"
-       orientation="0,-300"
-       id="guide4202" />
-  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -230,82 +160,81 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-552.36216)">
+     transform="translate(0,-552.36216)"
+     id="layer1">
     <rect
-       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4517"
-       width="880"
-       height="480"
-       x="10"
-       y="562.36218"
+       ry="25"
        rx="25"
-       ry="25" />
+       y="562.36218"
+       x="10"
+       height="480"
+       width="880"
+       id="rect4517"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <g
-       id="g4551"
-       clip-path="url(#clipPath4581)">
-      <rect
-         y="552.36218"
-         x="600"
-         height="500"
-         width="300"
-         id="rect4136"
-         style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         mask="none"
-         y="592.36218"
-         x="600"
-         height="70"
-         width="300"
-         id="rect4204"
-         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
-         clip-path="url(#clipPath4427)"
-         transform="translate(-317.774,100)"
-         mask="none"
-         y="502.36215"
-         x="0"
-         height="50"
-         width="550"
-         id="rect4138"
-         style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text4184"
-         y="641.82599"
-         x="45.735176"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.91064072px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           y="641.82599"
-           x="45.735176"
-           id="tspan4186"
-           sodipodi:role="line">Host</tspan></text>
+       clip-path="url(#clipPath4581)"
+       id="g4551">
       <rect
          style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect4346"
+         id="rect4136"
          width="300"
-         height="390"
+         height="500"
          x="600"
-         y="662.36218" />
+         y="552.36218" />
+      <rect
+         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4204"
+         width="300"
+         height="70"
+         x="600"
+         y="592.36218"
+         mask="none" />
+      <rect
+         style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4138"
+         width="550"
+         height="50"
+         x="0"
+         y="502.36215"
+         mask="none"
+         transform="translate(-317.774,100)"
+         clip-path="url(#clipPath4427)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.91064072px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="45.735176"
+         y="641.82599"
+         id="text4184"><tspan
+           id="tspan4186"
+           x="45.735176"
+           y="641.82599">Host</tspan></text>
+      <rect
+         y="662.36218"
+         x="600"
+         height="390"
+         width="300"
+         id="rect4346"
+         style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         transform="translate(-5,62.792974)"
-         id="g4348">
+         id="g4348"
+         transform="translate(-5,62.792974)">
         <rect
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           clip-path="url(#clipPath4283)"
+           ry="10"
+           rx="10"
+           y="712.36218"
+           x="687.5"
+           height="125"
+           width="125"
            id="rect4277"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <image
+           transform="translate(16.663635,-13.566223)"
+           clip-path="url(#clipPath4279)"
            width="125"
            height="125"
-           x="687.5"
-           y="712.36218"
-           rx="10"
-           ry="10"
-           clip-path="url(#clipPath4283)" />
-        <image
-           y="725.92841"
-           x="670.83636"
-           id="image4267"
+           preserveAspectRatio="none"
+           style="image-rendering:optimizeSpeed"
            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAYAAACPgGwlAAAHSUlEQVR4nO3dTUwb6RnA8f/YfBOS
 DSTkkySQhCSwIRBgk20SkkC02tW2yqrb7LKnniq1l94rVZWqXitVrdpzz71Xqqreeu2prRQCISHB
 EDAm4C/8bU8P09fKrnbRO2ZmPGM//wsH8zCWfvIYD+87gCRJkiRJkiRJkiRJkiRJkiRJde34RPjm
@@ -341,93 +270,82 @@ gm0rX6BntyH+1PaacRDsmqobenXN+IL11WaCfYA8Rz/AmnEQbEfyDN00IbNpncZtrhkHwXY019FN
 pwt2HfMaXbB9kFfogu2j3EYXbB/mFrpg+zin0QU7ADmFLtgB6qDogh3AakUX7ABnHz3EX0Ot/FGw
 JUmSJEmSJEmSJEmSJEmSJEmSrP4HJdOJRXC3p+oAAAAASUVORK5CYII=
 "
-           style="image-rendering:optimizeSpeed"
-           preserveAspectRatio="none"
-           height="125"
-           width="125"
-           clip-path="url(#clipPath4279)"
-           transform="translate(16.663635,-13.566223)" />
+           id="image4267"
+           x="670.83636"
+           y="725.92841" />
         <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="749.97559"
-           y="907.98718"
            id="text4287"
-           sodipodi:linespacing="100%"><tspan
-             sodipodi:role="line"
-             x="749.97559"
-             y="907.98718"
-             id="tspan4297">574 posts in Mafia</tspan></text>
-        <text
-           sodipodi:linespacing="125%"
-           id="text4291"
-           y="875.67273"
-           x="618.0957"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           y="907.98718"
+           x="749.97559"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:100%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
-             y="875.67273"
-             x="618.0957"
-             id="tspan4293"
-             sodipodi:role="line">Registered 28 Feb 2013</tspan></text>
+             id="tspan4297"
+             y="907.98718"
+             x="749.97559">574 posts in Mafia</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.10208702px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="749.96613"
-           y="682.73724"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="618.0957"
+           y="875.67273"
+           id="text4291"><tspan
+             id="tspan4293"
+             x="618.0957"
+             y="875.67273">Registered 28 Feb 2013</tspan></text>
+        <text
            id="text4519"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4521"
+           y="682.73724"
+           x="749.96613"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:23.10208702px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             y="682.73724"
              x="749.96613"
-             y="682.73724">emotionTongue</tspan></text>
+             id="tspan4521">emotionTongue</tspan></text>
       </g>
       <rect
-         clip-path="url(#clipPath4437)"
-         style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         id="rect4188"
-         width="800"
-         height="50"
-         x="-1007.226"
-         y="-552.36212"
+         transform="matrix(-1,0,0,-1,0,100)"
          mask="none"
-         transform="matrix(-1,0,0,-1,0,100)" />
+         y="-552.36212"
+         x="-1007.226"
+         height="50"
+         width="800"
+         id="rect4188"
+         style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         clip-path="url(#clipPath4437)" />
       <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.91064072px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="277.96118"
-         y="641.82599"
          id="text4190"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan4192"
+         y="641.82599"
+         x="277.96118"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.91064072px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="641.82599"
            x="277.96118"
-           y="641.82599">Tantusar</tspan></text>
+           id="tspan4192">Tantusar</tspan></text>
     </g>
     <rect
-       y="712.36218"
-       x="50"
-       height="280"
-       width="500"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4326"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       width="500"
+       height="280"
+       x="50"
+       y="712.36218" />
     <flowRoot
-       transform="translate(-50,-161.28884)"
-       id="flowRoot4332"
+       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:100%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><flowRegion
+       id="flowRoot4332"
+       transform="translate(-50,-161.28884)"><flowRegion
          id="flowRegion4334"><use
-           height="100%"
-           width="100%"
-           id="use4336"
-           xlink:href="#rect4326"
-           y="0"
+           transform="translate(50,161.28884)"
            x="0"
-           transform="translate(50,161.28884)" /></flowRegion><flowPara
+           y="0"
+           xlink:href="#rect4326"
+           id="use4336"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
          id="flowPara4338">&quot;I am an excellent host.&quot;</flowPara><flowPara
+         id="flowPara4340"
+         style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end">- Doc Scratch, Homestuck</flowPara><flowPara
          style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end"
-         id="flowPara4340">- Doc Scratch, Homestuck</flowPara><flowPara
-         id="flowPara4342"
-         style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end" /><flowPara
-         id="flowPara4344"
-         style="font-size:22.5px;line-height:100%;text-align:start;text-anchor:start">Ah, the host. The oldest of roles, that most impartial of players, the one who doesn't play at all. A good host is on time, consistent, knows what they're doing, and can keep a calm demeanour in the worst of circumstances. Unfortunately, I have just described someone who is not me. Oh, well. </flowPara></flowRoot>  </g>
+         id="flowPara4342" /><flowPara
+         style="font-size:22.5px;line-height:100%;text-align:start;text-anchor:start"
+         id="flowPara4344">Ah, the host. The oldest of roles, that most impartial of players, the one who doesn't play at all. A good host is on time, consistent, knows what they're doing, and can keep a calm demeanour in the worst of circumstances. Unfortunately, I have just described someone who is not me. Oh, well. </flowPara></flowRoot>  </g>
 </svg>
