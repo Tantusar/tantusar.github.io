@@ -179,7 +179,7 @@
      inkscape:cx="366.87988"
      inkscape:cy="163.6609"
      inkscape:document-units="px"
-     inkscape:current-layer="g4551"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:snap-page="true"
@@ -382,13 +382,6 @@ JUmSJEmSJEmSJEmSJEmSJEmSrP4HJdOJRXC3p+oAAAAASUVORK5CYII=
              y="682.73724">emotionTongue</tspan></text>
       </g>
       <rect
-         y="712.36218"
-         x="50"
-         height="280"
-         width="500"
-         id="rect4326"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-      <rect
          clip-path="url(#clipPath4437)"
          style="opacity:1;fill:#0000aa;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4188"
@@ -409,23 +402,32 @@ JUmSJEmSJEmSJEmSJEmSJEmSrP4HJdOJRXC3p+oAAAAASUVORK5CYII=
            id="tspan4192"
            x="277.96118"
            y="641.82599">Tantusar</tspan></text>
-      <flowRoot
-         id="flowRoot4332"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:100%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><flowRegion
-           id="flowRegion4334"><use
-             height="100%"
-             width="100%"
-             id="use4336"
-             xlink:href="#rect4326"
-             y="0"
-             x="0" /></flowRegion><flowPara
-           id="flowPara4338">&quot;I am an excellent host.&quot;</flowPara><flowPara
-           style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end"
-           id="flowPara4340">- Doc Scratch, Homestuck</flowPara><flowPara
-           id="flowPara4342"
-           style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end" /><flowPara
-           id="flowPara4344"
-           style="font-size:22.5px;line-height:100%;text-align:start;text-anchor:start">Ah, the host. The oldest of roles, that most impartial of players, the one who doesn't play at all. A good host is on time, consistent, knows what they're doing, and can keep a calm demeanour in the worst of circumstances. Unfortunately, I have just described someone who is not me. Oh, well. </flowPara></flowRoot>    </g>
-  </g>
+    </g>
+    <rect
+       y="712.36218"
+       x="50"
+       height="280"
+       width="500"
+       id="rect4326"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       transform="translate(-50,-161.28884)"
+       id="flowRoot4332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:100%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><flowRegion
+         id="flowRegion4334"><use
+           height="100%"
+           width="100%"
+           id="use4336"
+           xlink:href="#rect4326"
+           y="0"
+           x="0"
+           transform="translate(50,161.28884)" /></flowRegion><flowPara
+         id="flowPara4338">&quot;I am an excellent host.&quot;</flowPara><flowPara
+         style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end"
+         id="flowPara4340">- Doc Scratch, Homestuck</flowPara><flowPara
+         id="flowPara4342"
+         style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end" /><flowPara
+         id="flowPara4344"
+         style="font-size:22.5px;line-height:100%;text-align:start;text-anchor:start">Ah, the host. The oldest of roles, that most impartial of players, the one who doesn't play at all. A good host is on time, consistent, knows what they're doing, and can keep a calm demeanour in the worst of circumstances. Unfortunately, I have just described someone who is not me. Oh, well. </flowPara></flowRoot>  </g>
 </svg>
