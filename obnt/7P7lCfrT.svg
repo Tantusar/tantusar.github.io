@@ -33,41 +33,6 @@
          x="254.95886"
          y="575.09332" />
     </clipPath>
-    <mask
-       maskUnits="userSpaceOnUse"
-       id="mask4240">
-      <g
-         id="g4242"
-         mask="none"
-         transform="scale(-1,-1)">
-        <rect
-           transform="scale(-1,-1)"
-           y="-552.36212"
-           x="-1007.226"
-           height="50"
-           width="800"
-           id="rect4244"
-           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-        <path
-           sodipodi:type="star"
-           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           id="path4246"
-           sodipodi:sides="3"
-           sodipodi:cx="334"
-           sodipodi:cy="666.36218"
-           sodipodi:r1="91.268837"
-           sodipodi:r2="45.634418"
-           sodipodi:arg1="0.52359878"
-           sodipodi:arg2="1.5707963"
-           inkscape:flatsided="true"
-           inkscape:rounded="0"
-           inkscape:randomized="0"
-           d="m 413.04113,711.9966 -158.08226,0 L 334,575.09335 Z"
-           inkscape:transform-center-y="-8.3333399"
-           transform="matrix(-0.6325821,0,0,-0.36522146,418.50842,762.39858)"
-           clip-path="url(#clipPath4166)" />
-      </g>
-    </mask>
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath4279">
@@ -198,10 +163,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="362.25725"
+     inkscape:cx="186.75725"
      inkscape:cy="163.6609"
      inkscape:document-units="px"
-     inkscape:current-layer="g4348"
+     inkscape:current-layer="g4483"
      showgrid="false"
      units="px"
      inkscape:snap-page="true"
@@ -247,7 +212,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -321,7 +286,7 @@
          height="50"
          x="-1007.226"
          y="-552.36212"
-         mask="url(#mask4240)"
+         mask="none"
          transform="matrix(-1,0,0,-1,0,100)" />
       <g
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.91064072px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
