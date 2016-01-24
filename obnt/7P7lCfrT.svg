@@ -189,6 +189,19 @@
          rx="25"
          ry="25" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4581">
+      <rect
+         ry="25"
+         rx="25"
+         y="562.36218"
+         x="10"
+         height="480"
+         width="880"
+         id="rect4583"
+         style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -201,7 +214,7 @@
      inkscape:cx="366.87988"
      inkscape:cy="163.6609"
      inkscape:document-units="px"
-     inkscape:current-layer="g4483"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      inkscape:snap-page="true"
@@ -266,8 +279,8 @@
        rx="25"
        ry="25" />
     <g
-       id="g4483"
-       clip-path="url(#clipPath4513)">
+       id="g4551"
+       clip-path="url(#clipPath4581)">
       <rect
          y="552.36218"
          x="600"
@@ -298,7 +311,7 @@
          id="text4184"
          y="641.82599"
          x="45.735176"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.91064072px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.91064072px;line-height:125%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="641.82599"
            x="45.735176"
@@ -433,7 +446,7 @@ JUmSJEmSJEmSJEmSJEmSJEmSrP4HJdOJRXC3p+oAAAAASUVORK5CYII=
            y="641.82599">Tantusar</tspan></text>
       <flowRoot
          id="flowRoot4332"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:100%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;line-height:100%;font-family:'Courier Prime Sans';-inkscape-font-specification:'Courier Prime Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><flowRegion
            id="flowRegion4334"><use
              height="100%"
@@ -443,11 +456,11 @@ JUmSJEmSJEmSJEmSJEmSJEmSrP4HJdOJRXC3p+oAAAAASUVORK5CYII=
              y="0"
              x="0" /></flowRegion><flowPara
            id="flowPara4338">&quot;I am an excellent host.&quot;</flowPara><flowPara
-           style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end;"
+           style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end"
            id="flowPara4340">- Doc Scratch, Homestuck</flowPara><flowPara
            id="flowPara4342"
-           style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end;" /><flowPara
+           style="font-size:22.5px;line-height:100%;text-align:end;text-anchor:end" /><flowPara
            id="flowPara4344"
-           style="font-size:22.5px;line-height:100%;text-align:start;text-anchor:start;">Ah, the host. The oldest of roles, that most impartial of players, the one who doesn't play at all. A good host is on time, consistent, knows what they're doing, and can keep a calm demeanour in the worst of circumstances. Unfortunately, I have just described someone who is not me. Oh, well. </flowPara></flowRoot>    </g>
+           style="font-size:22.5px;line-height:100%;text-align:start;text-anchor:start">Ah, the host. The oldest of roles, that most impartial of players, the one who doesn't play at all. A good host is on time, consistent, knows what they're doing, and can keep a calm demeanour in the worst of circumstances. Unfortunately, I have just described someone who is not me. Oh, well. </flowPara></flowRoot>    </g>
   </g>
 </svg>
