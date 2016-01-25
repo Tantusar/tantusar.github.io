@@ -17203,5 +17203,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.SetFontColor,
 	cr.system_object.prototype.exps.rgb,
 	cr.system_object.prototype.cnds.Else,
-	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked
+	cr.plugins_.Mouse.prototype.cnds.OnObjectClicked,
+	cr.system_object.prototype.exps.abs
 ];};
