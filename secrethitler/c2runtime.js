@@ -17188,10 +17188,10 @@ cr.plugins_.Text = function(runtime)
 	pluginProto.exps = new Exps();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Keyboard,
 	cr.plugins_.Mouse,
-	cr.plugins_.Text,
+	cr.plugins_.Keyboard,
 	cr.plugins_.Sprite,
+	cr.plugins_.Text,
 	cr.plugins_.Keyboard.prototype.cnds.OnKey,
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
 	cr.plugins_.Sprite.prototype.exps.AnimationFrame,
