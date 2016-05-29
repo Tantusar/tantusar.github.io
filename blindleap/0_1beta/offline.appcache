@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1464510856
+#1464523624
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -33,6 +33,7 @@ images/sky-sheet0.png
 images/tiledbackground3.png
 images/yay-sheet0.png
 images/lvlsel-sheet0.png
+images/lvlsel-sheet1.png
 images/backdrop-sheet0.png
 images/next-sheet0.png
 images/prev-sheet0.png
@@ -42,6 +43,7 @@ images/checkpoint-sheet0.png
 images/line-sheet0.png
 images/line-sheet1.png
 images/sprite-sheet0.png
+images/blind_leap_editor__29052016__the_great_mess-sheet0.png
 media/falloff.m4a
 media/falloff.ogg
 media/finish.m4a
