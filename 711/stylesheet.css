@@ -1,13 +1,13 @@
 .small-title {
     text-align: center;
-    font-size: 54pt;
+    font-size: 36pt;
     font-weight: 700;
     line-height: 1;
 }
 
 .large-title {
     text-align: center;
-    font-size: 120pt;
+    font-size: 80pt;
     font-weight: 700;
     line-height: 1;
 }
@@ -34,7 +34,6 @@ html {
     .finale-video {
         width: 640px;
         height: 360px;
-        margin: 25px;
     }
 }
 
@@ -50,7 +49,12 @@ html {
     .finale-video {
         width: 1280px;
         height: 720px;
-        margin: 50px 25px;
+    }
+    .small-title {
+        font-size: 54px;
+    }
+    .large-title {
+        font-size: 120px;
     }
 }
 
