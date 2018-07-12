@@ -1,0 +1,57 @@
+.small-title {
+    text-align: center;
+    font-size: 54pt;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.large-title {
+    text-align: center;
+    font-size: 120pt;
+    font-weight: 700;
+    line-height: 1;
+}
+
+body {
+    margin: 0;
+    padding: 25px;
+    font-family: "Inter UI";
+    background: linear-gradient(#000000, #004000);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+}
+
+html {
+    background: #004000;
+}
+
+.finale-video {
+    margin: 25px;
+}
+
+@media (min-width:740px) {
+    .finale-video {
+        width: 640px;
+        height: 360px;
+    }
+}
+
+@media (min-width:1060px) {
+    .finale-video {
+        width: 960px;
+        height: 540px;
+    }
+}
+
+@media (min-width:1380px) {
+    .finale-video {
+        width: 1280px;
+        height: 720px;
+    }
+}
+
+.finale-wrapper {
+    width:100%;
+    text-align:center;
+}
