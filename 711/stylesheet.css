@@ -1,14 +1,14 @@
 .small-title {
     text-align: center;
     font-size: 36pt;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1;
 }
 
 .large-title {
     text-align: center;
     font-size: 80pt;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1;
 }
 
@@ -18,7 +18,8 @@ body {
     font-family: "Inter UI";
     background: linear-gradient(#000000, #004000);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -65,4 +66,27 @@ html {
 
 .credits {
     margin-top: 50px;
+}
+
+.middle-text {
+    text-align: center;
+}
+
+a {
+    font-weight: 600;
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+
+
+.intro {
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
 }
