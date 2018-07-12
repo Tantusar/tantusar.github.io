@@ -34,6 +34,7 @@ html {
     .finale-video {
         width: 640px;
         height: 360px;
+        margin: 25px;
     }
 }
 
@@ -41,6 +42,7 @@ html {
     .finale-video {
         width: 960px;
         height: 540px;
+        margin: 50px 25px;
     }
 }
 
@@ -48,6 +50,7 @@ html {
     .finale-video {
         width: 1280px;
         height: 720px;
+        margin: 50px 25px;
     }
 }
 
