@@ -6,7 +6,10 @@ var scores = [0,0];
 
 var scorestemp = [0,0];
 
+var master = gsap.timeline();
+
 function valueHandler(game, set) {
+    master.progress(1);
     if (set == 0 & wins[game] != 0) {
         let current = wins[game];
         wins[game] = 0;
@@ -35,7 +38,6 @@ function scoreHandler(game, set, current) {
 };
 
 function animationHandler(game, set, current, change) {
-    var master = gsap.timeline();
     master.add(box_out(game, current))
         .add(box_in(game, set))
         .add(playera_flop(change[0]))
