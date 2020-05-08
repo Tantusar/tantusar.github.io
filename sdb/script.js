@@ -39,7 +39,9 @@ function scoreHandler(game, set, current) {
 
 function animationHandler(game, set, current, change) {
     master.add(box_out(game, current))
+        .to({}, .25, {})
         .add(box_in(game, set))
+        .to({}, .25, {})
         .add(playera_flop(change[0]))
         .add(playerb_flop(change[1]), '-=2')
         .call(function() {scores = scorestemp;})
