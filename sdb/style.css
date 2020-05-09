@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url('background.svg') center/cover no-repeat, url('background.png') #545254 center/cover no-repeat;
+    background: url('background.png') #545254 center/cover no-repeat;
     margin: 0;
     display: flex;
     flex-direction: column;
