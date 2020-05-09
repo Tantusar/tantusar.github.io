@@ -129,8 +129,7 @@ function playerb_flop(change) {
 function fullScale() {
     var targetScale = Math.min(
         window.innerHeight / 1080,
-        window.innerWidth / 1280,
-        1
+        window.innerWidth / 1280
     );
     $('body').css('transform', 'scale(' + targetScale + ')')
 };
