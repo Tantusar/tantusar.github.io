@@ -125,3 +125,15 @@ function playerb_flop(change) {
     }
     return tl;
 };
+
+function fullScale() {
+    var targetScale = Math.min(
+        window.innerHeight / 1080,
+        window.innerWidth / 1920,
+        1
+    );
+    $('body').css('transform', 'scale(' + targetScale + ')')
+};
+
+$(document).ready(fullScale);
+$(window).on('resize', fullScale);
