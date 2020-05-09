@@ -131,7 +131,7 @@ function fullScale() {
         window.innerHeight / 1080,
         window.innerWidth / 1280
     );
-    $('body').css('transform', 'scale(' + targetScale + ')')
+    $('#wrapper').css('transform', 'scale(' + targetScale + ')')
 };
 
 $(document).ready(fullScale);
