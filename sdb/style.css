@@ -17,6 +17,8 @@ body {
     color: #111;
     font-weight: 700;
     user-select: none;
+    position: fixed;
+    overflow: hidden;
 }
 
 #main {
