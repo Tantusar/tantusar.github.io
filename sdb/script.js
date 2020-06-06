@@ -211,6 +211,7 @@ function getTies() {
             playerB.push(i+1);
         };
     });
+
     ties.some(function (value) {
         if (value[0] == playerA[0]) {
             for (var i = 0; i < playerA.length; i++) {
@@ -231,6 +232,9 @@ function getTies() {
             return false
         }
     });
+    if (playerA.length + playerB.length == 0) {
+        lights = [[1,2,3,4,5,6,7,8,9,15],[10,11,12,13,14]]
+    }
     return lights
 }
 
@@ -246,7 +250,16 @@ function getEndsA() {
         };
     });
     ends.some(function (value) {
-        if (value[0] == playerA[0]) {
+        if (playerA.length == 0) {
+            for (var i = 0; i < value.length; i++) {
+                if (playerB.includes(value[i])) {
+                    return false
+                }
+            }
+
+            lights = value
+            return true
+        } else if (value[0] == playerA[0]) {
             for (var i = 0; i < playerA.length; i++) {
                 if (value[i] != playerA[i]) {
                     return false
@@ -280,7 +293,16 @@ function getEndsB() {
         };
     });
     ends.some(function (value) {
-        if (value[0] == playerB[0]) {
+        if (playerB.length == 0) {
+            for (var i = 0; i < value.length; i++) {
+                if (playerA.includes(value[i])) {
+                    return false
+                }
+            }
+
+            lights = value
+            return true
+        } else if (value[0] == playerB[0]) {
             for (var i = 0; i < playerB.length; i++) {
                 if (value[i] != playerB[i]) {
                     return false
