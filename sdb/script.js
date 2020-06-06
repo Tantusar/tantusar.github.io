@@ -179,7 +179,7 @@ function lightsToggle(level = -1) {
                 .set('#playerb-' + i, {'color': 'rgba(0,255,0,1)'})
         }
         var endsAResult = getEndsA();
-        var endsBresult = getEndsB();
+        var endsBResult = getEndsB();
         endsAResult.forEach(function (value) {
             tl.set('#playera-' + value, {'color': 'rgba(0,255,0,1)'})
         });
