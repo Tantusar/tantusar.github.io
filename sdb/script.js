@@ -175,8 +175,6 @@ function lightsToggle(level = -1) {
         for (var i = 1; i <= 15; i++) {
             tl.set('#playera-' + i, {'color': ''})
                 .set('#playerb-' + i, {'color': ''})
-            tl.set('#playera-' + i, {'color': 'rgba(0,255,0,1)'})
-                .set('#playerb-' + i, {'color': 'rgba(0,255,0,1)'})
         }
         var endsAResult = getEndsA();
         var endsBResult = getEndsB();
