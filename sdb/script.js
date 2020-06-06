@@ -177,19 +177,57 @@ function lightsToggle(level = -1) {
     }
     if (lightLevel == 0) {
         for (var i = 1; i <= 15; i++) {
-          tl.set('#playera-' + i, {'color': ''})
-            .set('#playerb-' + i, {'color': ''})
+            tl.set('#playera-' + i, {'color': ''})
+                .set('#playerb-' + i, {'color': ''})
         }
     } else if (lightLevel == 1) {
         for (var i = 1; i <= 15; i++) {
-          tl.set('#playera-' + i, {'color': 'rgba(0,255,0,1)'})
-            .set('#playerb-' + i, {'color': 'rgba(0,255,0,1)'})
+            tl.set('#playera-' + i, {'color': ''})
+                .set('#playerb-' + i, {'color': ''})
+            tl.set('#playera-' + i, {'color': 'rgba(0,255,0,1)'})
+                .set('#playerb-' + i, {'color': 'rgba(0,255,0,1)'})
         }
     } else if (lightLevel == 2) {
         for (var i = 1; i <= 15; i++) {
-          tl.set('#playera-' + i, {'color': 'rgba(255,255,0,1)'})
-            .set('#playerb-' + i, {'color': 'rgba(255,255,0,1)'})
+            tl.set('#playera-' + i, {'color': ''})
+                .set('#playerb-' + i, {'color': ''})
+            tl.set('#playera-' + i, {'color': 'rgba(255,255,0,1)'})
+                .set('#playerb-' + i, {'color': 'rgba(255,255,0,1)'})
         }
     }
 
+}
+
+function getTies() {
+    playerA = [];
+    playerB = [];
+    lights = [[],[]];
+    wins.forEach(function (value, i) {
+        if (value == 1) {
+            playerA.push(i+1);
+        } else if (value == 2) {
+            playerB.push(i+1);
+        };
+    });
+    ties.some(function (value) {
+        if (value[0] == playerA[0]) {
+            for (var i = 0; i < playerA.length; i++) {
+                if value[i] != playerA[i] {
+                    return false
+                }
+            }
+
+            for (var i = playerA.length; i < value.length; i++) {
+                if playerB.includes(value[i]) {
+                    return false
+                }
+            }
+
+            lights = [value, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].filter(n => !value.includes(n))]
+            return true
+        } else {
+            return false
+        }
+    });
+    return lights
 }
