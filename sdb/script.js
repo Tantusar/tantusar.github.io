@@ -212,13 +212,13 @@ function getTies() {
     ties.some(function (value) {
         if (value[0] == playerA[0]) {
             for (var i = 0; i < playerA.length; i++) {
-                if value[i] != playerA[i] {
+                if (value[i] != playerA[i]) {
                     return false
                 }
             }
 
             for (var i = playerA.length; i < value.length; i++) {
-                if playerB.includes(value[i]) {
+                if (playerB.includes(value[i])) {
                     return false
                 }
             }
