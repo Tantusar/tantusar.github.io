@@ -199,9 +199,9 @@ function lightsToggle(level = -1) {
 }
 
 function getTies() {
-    playerA = [];
-    playerB = [];
-    lights = [[],[]];
+    var playerA = [];
+    var playerB = [];
+    var lights = [[],[]];
     wins.forEach(function (value, i) {
         if (value == 1) {
             playerA.push(i+1);
