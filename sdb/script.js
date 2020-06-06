@@ -10,6 +10,7 @@ var master = gsap.timeline();
 
 function valueHandler(game, set) {
     master.progress(1);
+    lightsToggle(0);
     if (set == 0 & wins[game] != 0) {
         let current = wins[game];
         wins[game] = 0;
@@ -136,3 +137,59 @@ function fullScale() {
 
 $(document).ready(fullScale);
 $(window).on('resize', fullScale);
+
+// LIGHTS CONTROL
+
+var lightLevel = 0;
+
+let requestURL = 'ties.json';
+let request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+
+request.onload = function() {
+  const ties = request.response;
+}
+
+let request2URL = 'ties.json';
+let request2 = new XMLHttpRequest();
+request2.open('GET', requestURL);
+request2.responseType = 'json';
+request2.send();
+
+request2.onload = function() {
+  const ends = request2.response;
+}
+
+function arrayRemove(arr, value) {
+    return arr.filter(function(ele){
+        return ele != value;
+    });
+}
+
+function lightsToggle(level = -1) {
+    var tl = gsap.timeline();
+    if (level == -1) {
+        lightLevel = (lightLevel + 1) % 3;
+    } else {
+        lightLevel = level % 3;
+    }
+    if (lightLevel == 0) {
+        for (var i = 1; i <= 15; i++) {
+          tl.set('#playera-' + i, {'color': ''})
+            .set('#playerb-' + i, {'color': ''})
+        }
+    } else if (lightLevel == 1) {
+        for (var i = 1; i <= 15; i++) {
+          tl.set('#playera-' + i, {'color': 'rgba(0,255,0,1)'})
+            .set('#playerb-' + i, {'color': 'rgba(0,255,0,1)'})
+        }
+    } else if (lightLevel == 2) {
+        for (var i = 1; i <= 15; i++) {
+          tl.set('#playera-' + i, {'color': 'rgba(255,255,0,1)'})
+            .set('#playerb-' + i, {'color': 'rgba(255,255,0,1)'})
+        }
+    }
+
+}
