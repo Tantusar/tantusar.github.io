@@ -179,10 +179,10 @@ function lightsToggle(level = -1) {
         var endsAResult = getEndsA();
         var endsBResult = getEndsB();
         endsAResult.forEach(function (value) {
-            tl.set('#playera-' + value, {'color': 'rgba(0,255,0,1)'})
+            tl.set('#playera-' + value, {'color': 'limegreen'})
         });
         endsBResult.forEach(function (value) {
-            tl.set('#playerb-' + value, {'color': 'rgba(0,255,0,1)'})
+            tl.set('#playerb-' + value, {'color': 'limegreen'})
         });
     } else if (lightLevel == 2) {
         for (var i = 1; i <= 15; i++) {
@@ -191,10 +191,10 @@ function lightsToggle(level = -1) {
         };
         var tiesResult = getTies();
         tiesResult[0].forEach(function (value) {
-            tl.set('#playera-' + value, {'color': 'rgba(255,255,0,1)'})
+            tl.set('#playera-' + value, {'color': 'goldenrod'})
         });
         tiesResult[1].forEach(function (value) {
-            tl.set('#playerb-' + value, {'color': 'rgba(255,255,0,1)'})
+            tl.set('#playerb-' + value, {'color': 'goldenrod'})
         });
     }
 
