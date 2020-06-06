@@ -142,12 +142,15 @@ $(window).on('resize', fullScale);
 
 var lightLevel = 0;
 
+var ties = [];
+var ends = [];
+
 $.getJSON('ties.json', function (data) {
-    const ties = data;
+    ties = data;
 });
 
 $.getJSON('ties.json', function (data) {
-    const ends = data;
+    ends = data;
 });
 
 function arrayRemove(arr, value) {
