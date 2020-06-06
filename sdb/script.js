@@ -144,23 +144,25 @@ var lightLevel = 0;
 
 let requestURL = 'ties.json';
 let request = new XMLHttpRequest();
+request.onload = function() {
+  const ties = request.response;
+};
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 
-request.onload = function() {
-  const ties = request.response;
-}
+
 
 let request2URL = 'ties.json';
 let request2 = new XMLHttpRequest();
+request2.onload = function() {
+  const ends = request2.response;
+};
 request2.open('GET', requestURL);
 request2.responseType = 'json';
 request2.send();
 
-request2.onload = function() {
-  const ends = request2.response;
-}
+
 
 function arrayRemove(arr, value) {
     return arr.filter(function(ele){
