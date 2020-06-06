@@ -149,7 +149,7 @@ $.getJSON('ties.json', function (data) {
     ties = data;
 });
 
-$.getJSON('ties.json', function (data) {
+$.getJSON('ends.json', function (data) {
     ends = data;
 });
 
@@ -178,6 +178,14 @@ function lightsToggle(level = -1) {
             tl.set('#playera-' + i, {'color': 'rgba(0,255,0,1)'})
                 .set('#playerb-' + i, {'color': 'rgba(0,255,0,1)'})
         }
+        var endsAResult = getEndsA();
+        var endsBresult = getEndsB();
+        endsAResult.forEach(function (value) {
+            tl.set('#playera-' + value, {'color': 'rgba(0,255,0,1)'})
+        });
+        endsBResult.forEach(function (value) {
+            tl.set('#playerb-' + value, {'color': 'rgba(0,255,0,1)'})
+        });
     } else if (lightLevel == 2) {
         for (var i = 1; i <= 15; i++) {
             tl.set('#playera-' + i, {'color': ''})
@@ -220,6 +228,74 @@ function getTies() {
             }
 
             lights = [value, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15].filter(n => !value.includes(n))]
+            return true
+        } else {
+            return false
+        }
+    });
+    return lights
+}
+
+function getEndsA() {
+    var playerA = [];
+    var playerB = [];
+    var lights = [];
+    wins.forEach(function (value, i) {
+        if (value == 1) {
+            playerA.push(i+1);
+        } else if (value == 2) {
+            playerB.push(i+1);
+        };
+    });
+    ends.some(function (value) {
+        if (value[0] == playerA[0]) {
+            for (var i = 0; i < playerA.length; i++) {
+                if (value[i] != playerA[i]) {
+                    return false
+                }
+            }
+
+            for (var i = playerA.length; i < value.length; i++) {
+                if (playerB.includes(value[i])) {
+                    return false
+                }
+            }
+
+            lights = value
+            return true
+        } else {
+            return false
+        }
+    });
+    return lights
+}
+
+function getEndsB() {
+    var playerA = [];
+    var playerB = [];
+    var lights = [];
+    wins.forEach(function (value, i) {
+        if (value == 1) {
+            playerA.push(i+1);
+        } else if (value == 2) {
+            playerB.push(i+1);
+        };
+    });
+    ends.some(function (value) {
+        if (value[0] == playerB[0]) {
+            for (var i = 0; i < playerB.length; i++) {
+                if (value[i] != playerB[i]) {
+                    return false
+                }
+            }
+
+            for (var i = playerB.length; i < value.length; i++) {
+                if (playerA.includes(value[i])) {
+                    return false
+                }
+            }
+
+            lights = value
             return true
         } else {
             return false
