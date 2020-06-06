@@ -182,9 +182,14 @@ function lightsToggle(level = -1) {
         for (var i = 1; i <= 15; i++) {
             tl.set('#playera-' + i, {'color': ''})
                 .set('#playerb-' + i, {'color': ''})
-            tl.set('#playera-' + i, {'color': 'rgba(255,255,0,1)'})
-                .set('#playerb-' + i, {'color': 'rgba(255,255,0,1)'})
-        }
+        };
+        var tiesResult = getTies();
+        tiesResult[0].forEach(function (value) {
+            tl.set('#playera-' + value, {'color': 'rgba(255,255,0,1)'})
+        });
+        tiesResult[1].forEach(function (value) {
+            tl.set('#playerb-' + value, {'color': 'rgba(255,255,0,1)'})
+        });
     }
 
 }
