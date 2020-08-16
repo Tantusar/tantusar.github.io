@@ -1,0 +1,212 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="editor.js"></script>
+    <link rel="stylesheet" href="editor.css" />
+    <title>Secret Fortune Question Stack Editor</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <article>
+                <h1><span style="color:var(--accent)">Secret Fortune</span><br>Question Stack Editor</h1>
+                <h3>Round 1: Hold the Highest</h3>
+                <ol data-round="round1">
+                    <li data-question=0><a href="#question1">Untitled Question</a></li>
+                    <li data-question=1><a href="#question2">Untitled Question</a></li>
+                    <li data-question=2><a href="#question3">Untitled Question</a></li>
+                    <li data-question=3><a href="#question4">Untitled Question</a></li>
+                    <li data-question=4><a href="#question5">Untitled Question</a></li>
+                    <li data-question=5><a href="#question6">Untitled Question</a></li>
+                </ol>
+                <h3>Round 2: Lose the Lowest</h3>
+                <ol start=7 data-round="round2">
+                    <li data-question=0><a href="#question7">Untitled Question</a></li>
+                    <li data-question=1><a href="#question8">Untitled Question</a></li>
+                    <li data-question=2><a href="#question9">Untitled Question</a></li>
+                    <li data-question=3><a href="#question10">Untitled Question</a></li>
+                    <li data-question=4><a href="#question11">Untitled Question</a></li>
+                </ol>
+                <h3>Stack Properties</h3>
+                <section id="properties">
+                    <input type="text" id="authorname" placeholder="Author Name">
+                    <input type="file" id="selectedFile" style="display: none;" onchange="loadQuestionData();"/>
+                    <input type="button" id="loadstack" value="Load Stack" onclick="document.getElementById('selectedFile').click();" >
+                    <input type="button" id="savestack" value="Save Stack" onclick="downloadQuestionData();">
+                    <a href="samplegame.json" download>Sample Stack</a><a href="blankgame.json" download>Blank Stack</a>
+                </section>
+            </article>
+        </nav>
+        <div id="questions">
+            <h2>Round 1: Hold the Highest</h2>
+            <p>Questions in this round should be phrased to ask for whatever is the <em>highest</em> given answer.</p>
+            <section data-round="round1" data-question=0 id="question1">
+                <input type="text" class="question" placeholder="Question 1">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=2 type="text" class="answer" placeholder="Answer">
+                <input data-answer=2 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=3 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=3 type="text" class="value" placeholder="Answer Value">
+            </section>
+            <hr />
+            <section data-round="round1" data-question=1 id="question2">
+                <input type="text" class="question" placeholder="Question 2">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=2 type="text" class="answer" placeholder="Answer">
+                <input data-answer=2 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=3 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=3 type="text" class="value" placeholder="Answer Value">
+            </section>
+            <hr />
+            <section data-round="round1" data-question=2 id="question3">
+                <input type="text" class="question" placeholder="Question 3">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=2 type="text" class="answer" placeholder="Answer">
+                <input data-answer=2 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=3 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=3 type="text" class="value" placeholder="Answer Value">
+            </section>
+            <hr />
+            <section data-round="round1" data-question=3 id="question4">
+                <input type="text" class="question" placeholder="Question 4">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=2 type="text" class="answer" placeholder="Answer">
+                <input data-answer=2 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=3 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=3 type="text" class="value" placeholder="Answer Value">
+            </section>
+            <hr />
+            <section data-round="round1" data-question=4 id="question5">
+                <input type="text" class="question" placeholder="Question 5">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=2 type="text" class="answer" placeholder="Answer">
+                <input data-answer=2 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=3 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=3 type="text" class="value" placeholder="Answer Value">
+            </section>
+            <hr />
+            <section data-round="round1" data-question=5 id="question6">
+                <input type="text" class="question" placeholder="Question 6">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=2 type="text" class="answer" placeholder="Answer">
+                <input data-answer=2 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=3 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=3 type="text" class="value" placeholder="Answer Value">
+            </section>
+            <hr />
+            <h2>Round 2: Lose the Lowest</h2>
+            <p>Questions in this round should be phrased to ask for whatever is the <em>lowest</em> given answer.</p>
+            <section data-round="round2" data-question=0 id="question7">
+                <input type="text" class="question" placeholder="Question 7">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=2 type="text" class="answer" placeholder="Answer">
+                <input data-answer=2 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=3 type="text" class="answer" placeholder="Answer">
+                <input data-answer=3 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=4 type="text" class="answer" placeholder="Answer">
+                <input data-answer=4 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=5 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=5 type="text" class="value" placeholder="Answer Value">
+            </section>
+            <hr />
+            <section data-round="round2" data-question=1 id="question8">
+                <input type="text" class="question" placeholder="Question 8">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=2 type="text" class="answer" placeholder="Answer">
+                <input data-answer=2 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=3 type="text" class="answer" placeholder="Answer">
+                <input data-answer=3 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=4 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=4 type="text" class="value" placeholder="Answer Value">
+            </section>
+            <hr />
+            <section data-round="round2" data-question=2 id="question9">
+                <input type="text" class="question" placeholder="Question 9">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=2 type="text" class="answer" placeholder="Answer">
+                <input data-answer=2 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=3 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=3 type="text" class="value" placeholder="Answer Value">
+            </section>
+            <hr />
+            <section data-round="round2" data-question=3 id="question10">
+                <input type="text" class="question" placeholder="Question 10">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=2 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=2 type="text" class="value" placeholder="Answer Value">
+            </section>
+            <hr />
+            <section data-round="round2" data-question=4 id="question11">
+                <input type="text" class="question" placeholder="Question 11">
+                <input type="text" class="longsource" placeholder="Source Link">
+                <input type="text" class="shortsource" placeholder="Short Source Name">
+                <div></div><div></div>
+                <input data-answer=0 type="text" class="answer" placeholder="Highest Answer">
+                <input data-answer=0 type="text" class="value" placeholder="Answer Value">
+                <input data-answer=1 type="text" class="answer" placeholder="Lowest Answer">
+                <input data-answer=1 type="text" class="value" placeholder="Answer Value">
+            </section>
+        </div>
+    </main>
+</body>
+</html>

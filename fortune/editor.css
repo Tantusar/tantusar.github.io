@@ -1,0 +1,130 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; font-feature-settings: 'cv08'; font-weight: 500;}
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; font-feature-settings: 'cv08'; font-weight: 500;}
+}
+
+:root {
+    --primary: #2d1650;
+    --secondary: #442178;
+    --accent: #ffcc00;
+    --light: white;
+    --dark: var(--primary);
+}
+
+body {
+    background: var(--secondary);
+    color: var(--light);
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body::-webkit-scrollbar {
+    width: 11px;
+}
+
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) var(--primary);
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--primary);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--accent);
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+nav {
+    border-right: 5px var(--accent) solid;
+    background: var(--primary);
+}
+
+article {
+    position: sticky;
+    top: 0;
+    padding: 2rem;
+}
+
+input, #properties a {
+    font: inherit;
+    color: var(--dark);
+    background: var(--light);
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    user-select: auto;
+}
+
+.question {
+    grid-column-end: span 2;
+}
+
+.longsource, .answer {
+    text-align: left
+}
+
+.shortsource, .value {
+    text-align: right
+}
+
+input:focus, div:focus {
+    outline: 0;
+}
+
+input[type="button"], #properties a {
+    background: var(--accent);
+}
+
+#properties {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto;
+}
+
+#properties #authorname {
+    grid-column-end: span 2;
+}
+
+#properties a {
+    display: block;
+    width: calc(100% - 2rem);
+    height: max-content;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background: var(--primary);
+}
+
+#questions {
+    padding: 2rem 2rem 1rem;
+}
+
+#questions section {
+    padding: 2rem 0;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 3fr 1fr;
+}
