@@ -37,9 +37,9 @@ body {
 
 #hashtag {
     display: block;
-    padding: 15px 60px;
+    padding: 10px 60px;
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 #main, #hashtag {
