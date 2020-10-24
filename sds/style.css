@@ -51,7 +51,7 @@ body {
 .name {
     position: absolute;
     display: block;
-    width: 350px;
+    width: 450px;
     height: 100px;
     text-align: center;
     font-weight: 700;
@@ -67,11 +67,11 @@ body {
 }
 
 #playera-name {
-    left: 135px;
+    left: 85px;
 }
 
 #playerb-name {
-    right: 135px;
+    right: 85px;
 }
 
 .score {
